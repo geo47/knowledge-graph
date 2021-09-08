@@ -1,0 +1,20 @@
+@prefix : <http://example.com/> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+:Restaurant a owl:Class .
+:Person a owl:Class .
+:Man owl:subClassOf :Person .
+:Woman owl:subClassOf :Person .
+:Menu a owl:Class .
+:Aspect a owl:Class .
+:Attr a owl:Class .
+
+:name a owl:DatatypeProperty .
+
+:visit a owl:ObjectProperty .
+:hasMenu a owl:ObjectProperty .
+:has a owl:ObjectProperty .
+:is a owl:ObjectProperty .
+:lacked a owl:ObjectProperty .

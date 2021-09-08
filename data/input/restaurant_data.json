@@ -1,0 +1,47 @@
+{
+  "restaurants": [
+    {
+      "rest_id": "0",
+      "name": "Silver spoon restaurant",
+      "address": "1548 Warden Avenue Toronto, ON M1R 2S8 Scarborough",
+      "reviews": [
+        {
+          "reviewer_id": "ssr_1",
+          "name": "Angela",
+          "rating": "5",
+          "review": "I usually visit silver spoon restaurant with my friends. Their food quality is amazing and I like their chicken biryani a lot. Its so delicious. Their food as well as services are all good."
+        },
+        {
+          "reviewer_id": "ssr_2",
+          "name": "Gautram",
+          "rating": "4",
+          "review": "Amazing goat briyani. Huge portions that can easily last for two times. However, it was so tasty that I over ate the whole briyani in one go. The price is very reasonable and briyani had lot of meat prices. Didn't like their chicken qourma. As it lacked taste and was bland. Staff is decent and service is quick. Will definitely be regular here just and just for briyani."
+        },
+        {
+          "reviewer_id": "ssr_3",
+          "name": "Maya",
+          "rating": "1",
+          "review": "food tasted soo bad! soo salty I couldn't even eat it. chicken briyani and chicken kebab were so salty. chicken kebabs weren't cooked properly too. never again order from these people. I called them and told them this and they didn't even apologize. never again from this restaurant!"
+        },
+        {
+          "reviewer_id": "ssr_4",
+          "name": "Kavi",
+          "rating": "4",
+          "review": "Pretty good Pakistani/Indian restaurant. Decor was decent and service was fairly good. Place gets very busy, so allow some time before you get seated. We ordered the following: 1. Butter Chicken: 9/10 AMAZING. It was one of the best butter chicken dishes I've ever had. The only drawback is portioning. It came in a small curry bowl. Not worth the price, but very flavourful! 2. Chicken Biriyani: 9/10. We ordered spicy, which was a good spice for a brown person lol. The green yogurt was good to balance the spiciness of the dish. Portioning was on point; pretty big plate. Enough to feed 2-3 people. Felt like the taste was average in comparison to other places. 3. Tandoori Naan: 5/10. Was expecting some in-house made naan, except these were just warmed up and served. Overall, I would definitely come back here again. Service was good & food was flavourful!"
+        },
+        {
+          "reviewer_id": "ssr_5",
+          "name": "Khadija",
+          "rating": "4",
+          "review": "First iftar in silver spoon restaurant, their food is always good. Customer service is always ok. Sometimes it's too busy and they promise you what they can't fulfill. It's happened to us where we were dining, waiting for two hours and never got our biryani! Didn't apologize. Yesterday was fine."
+        },
+        {
+          "reviewer_id": "ssr_6",
+          "name": "Sunny",
+          "rating": "4",
+          "review": "Nice place ,busy during lunch time .The chicken biryani is super, butter chicken is very authentic."
+        }
+      ]
+    }
+  ]
+}

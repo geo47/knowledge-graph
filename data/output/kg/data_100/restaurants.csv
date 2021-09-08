@@ -1,0 +1,101 @@
+id,rest_id,name,postal_code,city,state,country,rating,category
+0,b-mOsKIonnlHllP9gfbXdgnQ,Silver Spoon,L1X 2B3,Pickering,ON,Canada,2.5,Indian
+1,b-nbf4o8gUP2y9JKFE2wBO2A,Silver Spoon,L6W 2B8,Brampton,ON,Canada,2.5,Indian
+2,b-UaMq3DUhtkoZ5WCEQm2T9g,Silver Spoon,M1R 2S8,Toronto,ON,Canada,3.0,Indian|Pakistani
+3,b-P4h8kgy_48oE9vCHJc4BCQ,Silver Spoon,L5V 0A6,Mississauga,ON,Canada,2.5,Indian|Pakistani|Asian Fusion
+4,b-LZWXP-D4YPlzsFjVx6b9XA,Spice South,28277,Charlotte,NC,United States,3.5,Indian
+5,b-CvOxwAhmwwy3sQRKYVAjGg,Bombay Buffet Indian Cuisine,M1H 2Y1,Scarborough,ON,Canada,2.5,Pakistani|Caterers|Indian|Event Planning & Services
+6,b-ZDx7kt4aOPTlmYTqXDrTGA,Canbe Foods,L1Z 0L9,Ajax,ON,Canada,4.0,Indian|Sri Lankan
+7,b-p-J9iJgeHmPGk2jFAM0WnA,Red Chillez,28277,Charlotte,NC,United States,4.0,Indian
+8,b-RE4qn28MEiDrM1PbdYVgxA,Lena's Roti & Doubles,L6S,Brampton,ON,Canada,4.0,Caribbean|Indian
+9,b-_PKXarw3GjlbwbXhjdpUMA,Tangra Villa Hakka Chinese Cuisine,L3P,Markham,ON,Canada,3.5,Indian|Chinese
+10,b-scM6rLQqoz5dEIgwz_JFsg,Haveli Restaurant,53719,Fitchburg,WI,United States,4.5,Indian
+11,b-eRZuxjnaMviiVyvhejwTBQ,Afghan Cuisine,L4C 4M6,Richmond Hill,ON,Canada,3.0,Ethnic Food|Pakistani|Halal|Food|Afghan|Specialty Food
+12,b-CB99Ifh4OnBTnuNdRjj_fQ,Soma Grill,28105,Matthews,NC,United States,4.0,Food|Indian
+13,b-Eu-M3y8a5bIxIRXlCj9yHA,Watan Kabob,L4Z 1X8,Mississauga,ON,Canada,4.0,Pakistani|Halal|Middle Eastern|Afghan
+14,b-Dh2Z3WNu6M71LbMNHEeg3w,Hakka Town,L6P 0W4,Brampton,ON,Canada,2.0,Food|Indian|Chinese
+15,b-TTCZkfxt0GW8YUzdVe0PrA,Hyderabad House Arizona,85248,Chandler,AZ,United States,3.5,Buffets|Indian|Vegetarian
+16,b-or1daHtUK9b7sqFRPf62GQ,Supreme Dosa,T2B 0S8,Calgary,AB,Canada,4.5,Indian
+17,b-vZu3xxlMQSqFngDgdFLfXg,Tamarind - The Indian Kitchen,M5J 2S1,Toronto,ON,Canada,3.5,Fast Food|Vegetarian|Indian
+18,b-5eDg_Y2N6aU_k7tIxoFXTg,Armaan Taste of India,89183,Las Vegas,NV,United States,4.0,Pakistani|Asian Fusion|Pizza|Indian|Soul Food
+19,b-3wJ4kJsJhayyfJ30HsS04g,Matka Indian Cuisine,85224,Chandler,AZ,United States,3.0,Buffets|Indian
+20,b-qhKNZTtTT6GLnPzQny-v9Q,Nirala Sweets & Restaurant,M1X 1E6,Scarborough,ON,Canada,4.0,Indian|Pakistani|Halal
+21,b-k9PfKE7KfztoMpOSx25UpA,SpiceBros,H9B 1Z8,Dollard-des-Ormeaux,QC,Canada,4.0,Fast Food|Indian
+22,b-3frFidAcPVYAFB2RxxkIdA,Star of India,15213,Pittsburgh,PA,United States,3.5,Indian|Pakistani
+23,b-7xA6iSP0Ndn08tpBFQtUKA,Aroma Fine Indian Cuisine,M5V 1J5,Toronto,ON,Canada,3.5,Middle Eastern|Indian|Pakistani
+24,b-mOsKIonnlHllP9gfbXdgnQ,Silver Spoon,L1X 2B3,Pickering,ON,Canada,2.5,Indian
+25,b-COfzp0tze_F8N13zn40zzg,Bombay Mahal Thali,H3H 1L8,Montréal,QC,Canada,3.5,Indian
+26,b-DxbdfvNYPCyiLJDDPJK3Tg,Hakka Bro's,M3J 3H6,North York,ON,Canada,4.0,Hakka|Caribbean|Halal|Chinese|Indian
+27,b-MMOEaEcq-bsg_RYWHSC4_g,Little Spice,T2J 0P6,Calgary,AB,Canada,4.5,Indian|Halal|Pakistani
+28,b-h-psPOmlY0mCOflb3S3rdQ,Chennai Chettinaad Palace,85053,Phoenix,AZ,United States,3.0,Indian
+29,b-V_jIfMz9Z7a5mthleRq0_w,Nirvana II,28202,Charlotte,NC,United States,3.5,Indian
+30,b-kG0N5urz2lkPEBDPjqFR3w,Maharani Indian Cuisine,28204,Charlotte,NC,United States,3.5,Desserts|Pakistani|Seafood|Food|Indian
+31,b-LwXo16VrGPhhOWc_Wj7ifw,OM Restaurant,89123,Las Vegas,NV,United States,4.0,Indian|Himalayan/Nepalese
+32,b-35KvoWbA3kEsdckaWqG3OA,Masala House Indian Bistro,15224,Pittsburgh,PA,United States,4.5,Indian|Vegetarian|Halal
+33,b-XvuUYiJYAAiNC4AmdbBZ8g,Tandoori Grill,T3C 1C2,Calgary,AB,Canada,4.0,Ethnic Food|Food|Indian|Specialty Food
+34,b-qMw7mFHAjgG7qN82aXmeZg,Tandoori Style Restaurant,L6T 4L4,Brampton,ON,Canada,4.0,Middle Eastern|Indian|Pakistani
+35,b-0cf-w9PK5gLkBkitL3bdqw,India Garden,85392,Avondale,AZ,United States,4.0,Buffets|Indian
+36,b-Dd1w7xR7Xs3bthwusgy33Q,Lotus Deli,85210,Mesa,AZ,United States,4.5,Ethnic Food|Vegan|Vegetarian|Food|Fast Food|Indian|Specialty Food
+37,b-kfwpXBsMQLqhUvscWB6b9g,Indian Taste Restaurant,44087,Twinsburg,OH,United States,4.5,Ethnic Food|Desserts|Vegetarian|Food|Buffets|Indian|Specialty Food|Imported Food
+38,b-5VOqWjRXUPc7b1A_NSI9mQ,Spicy Garden,M1S 4N6,Scarborough,ON,Canada,3.5,Indian|Chinese
+39,b-hubbaEcYPYEZu5Ziz6i0lw,Mantra Masala,89113,Las Vegas,NV,United States,3.5,Indian|Pakistani
+40,b-MgsOZpYSntKSCzNROiWgYQ,Bombay Palace,M5C 2H2,Toronto,ON,Canada,3.0,Pakistani|Caterers|Middle Eastern|Buffets|Indian|Party & Event Planning|Event Planning & Services
+41,b-De8Z9rLZOmf-icp3gDxCZA,Anjappar Chettinad Restaurant,M1J 2H1,Scarborough,ON,Canada,3.5,Indian
+42,b-0zTLMQOZhiCp9GFtegiFsw,Kohinoor Cuisine of India,85281,Tempe,AZ,United States,4.0,Buffets|Indian
+43,b-SxuD7iY8QO88PNbSdNmNKg,Thulasi Kitchen,53717,Madison,WI,United States,3.5,Desserts|Seafood|Halal|Food|Indian
+44,b-DJuQgsoj-qmU0i5iTAa4aA,Tadka Restaurant,44070,North Olmsted,OH,United States,3.0,Indian
+45,b-vCx6uieEF0W0mKFK4sT3Yg,Waterfalls Indian Tapas Bar & Grill,M5T,Toronto,ON,Canada,2.5,Indian
+46,b-UAXz2KC1aXpxzV-MLdXbmQ,Delhi Bistro,M4E 1E9,Toronto,ON,Canada,4.0,Indian
+47,b-Pzs43Fkub-6A9hA1zqpF_w,Maharaja Restaurant,53719,Madison,WI,United States,4.0,Indian|Pakistani
+48,b-bO_JX-lDo5D5JGZhK5Ly3A,Cafe Krishna,85226,Chandler,AZ,United States,3.0,Desserts|Vegetarian|Food|Indian
+49,b-gw0ZS5b5RP3Lzr1BoCbALg,Charkha Exotic Indian Cuisine,44113,Cleveland,OH,United States,4.0,Indian
+50,b-idrN6XWKErG6nKDsEMNbOQ,Airport Bukhara,L4T 2H2,Mississauga,ON,Canada,3.0,Buffets|Indian
+51,b-qcqDjeirxvdgW5kQVkEwSA,The Red Room,M5T 2G8,Toronto,ON,Canada,3.0,Beer|Nightlife|Wine & Spirits|Pubs|Asian Fusion|Pakistani|Lounges|Chinese|Food|Thai|Indian|Canadian (New)|Bars
+52,b-ICUCAzUZFiWkYs7iCtNCQg,Copper Modern Indian Cuisine,28203,Charlotte,NC,United States,4.0,Nightlife|Pakistani|Wine Bars|Indian|Bars
+53,b-xSuR0FK8cHzBLXowCV3Pyw,Brar Sweets Restaurant,L5C 3B6,Mississauga,ON,Canada,3.0,Indian
+54,b-8PZGCtgG5MZKvz9i3B9gCA,Eastern Twist,M6C 1A1,Toronto,ON,Canada,4.0,Indian|Pakistani
+55,b-BxkVct02QHybp54ATZgkUQ,Jaipur Grille,M4S 2A3,Toronto,ON,Canada,3.5,Indian
+56,b-sUGlSS0AF2xPYFEjvKJbSA,Tandoori House,53719,Madison,WI,United States,3.5,Pakistani|Seafood|Halal|Indian
+57,b-XNL6PRXaQxyDO2yeBdy11w,Express Indien,H4V 1T1,Montréal,QC,Canada,4.0,Indian
+58,b-h3_Jnt_y0VPaC5x5kCWY0w,Raja Foods,T2A 2Z5,Calgary,AB,Canada,3.5,Nightlife|Pakistani|Mediterranean|Hookah Bars|Indian|Bars
+59,b-jb0-JZMt-6Khsh-VwsDtLQ,The Tasty Touch,85032,Phoenix,AZ,United States,4.0,Indian|Vegetarian|Gluten-Free
+60,b-Ksk5cLav4OtbUtpRGp5b4g,India's Cafe & Kitchen,44129,Cleveland,OH,United States,3.5,Indian
+61,b-gA4bnK91phT5FTzG4ki3Dw,Restaurant Devi,H3G 2B6,Montréal,QC,Canada,3.5,Buffets|Indian|Vegetarian
+62,b-DKqhCd3Vwl3CEo8vUHhLYg,Bombay's Chutney,L4S 1P3,Richmond Hill,ON,Canada,3.0,Indian
+63,b-geMa0_CtMOctkUhf_JXK9Q,Maison de Cari Golden,H2T 1S1,Montréal,QC,Canada,3.0,Indian
+64,b-xA6L2w_TlbxHubb1xeBE8w,Tamarind Savoring India,15220,Pittsburgh,PA,United States,4.0,Bakeries|Pakistani|Food|Indian
+65,b-ZJ0gQp0fcnIDiZv0m9--Gg,Angara India Spice Grill,89147,Las Vegas,NV,United States,4.5,Middle Eastern|Indian|Vegetarian
+66,b-gXLiBVCHIqoPEw2CaP3QmQ,Pakwan Indian Bistro,85226,Chandler,AZ,United States,3.5,Desserts|Pakistani|Asian Fusion|Seafood|Halal|Vegetarian|Middle Eastern|Fast Food|Food|Indian|Kebab
+67,b-tIXpNWE6R1yadAThbSefHw,Wanlee Loy,M1V 5P6,Toronto,ON,Canada,4.0,Hakka|Pakistani|Halal|Chinese
+68,b-f6T2YaTfGoSyQV-l4jzrjw,Rajdhani Sweets & Restaurant,M9V 2X5,Etobicoke,ON,Canada,3.5,Indian
+69,b-y4z0iQZWN4R2Fk8SiPQU5A,Urban Hakka,M4N 2L8,Toronto,ON,Canada,4.0,Hakka|Asian Fusion|Chinese|Indian
+70,b-pU7L-CQpl4syUwfEGAlb8g,Where the River Narrows,M4L 1V3,Toronto,ON,Canada,4.0,Indian|French
+71,b-ZNdV9ytExuxPTXSN8i2xhw,Needle and Pin,15216,Pittsburgh,PA,United States,4.0,Burgers|Breakfast & Brunch|Nightlife|British|Tapas/Small Plates|Cocktail Bars|Indian|Bars
+72,b-8grTRpmD9JYRPWayoLxg0w,Amaya Express,M6J 2Y7,Toronto,ON,Canada,3.0,Indian
+73,b-j4ytRzcmtU4cLMBrhY7jMA,Annalakshmi,L6P 0A1,Brampton,ON,Canada,4.0,Indian|Vegetarian
+74,b-oVuZtlCFg_zF090Nhtp0Ow,Choolaah Indian BBQ,15206,Pittsburgh,PA,United States,4.0,Vegan|Vegetarian|Indian|Gluten-Free
+75,b-P4zWgzYzy03D9LeDTpKuDg,Guru Lukshmi,L5M 5H1,Mississauga,ON,Canada,4.5,Food|Indian|American (Traditional)
+76,b-f7RXwcus_-EOsR0q5ctVjw,Didar,H3W 2R9,Montréal,QC,Canada,4.5,Indian
+77,b-NHDdAZJqS3cf_K6HYxoQ9w,Dev,J7V 4X3,L'Île-Perrot,QC,Canada,4.0,Indian
+78,b-Q8uwArm4h8bhsqxw84Gd8w,Charcoal Kebab House,M1H 1A4,Toronto,ON,Canada,3.5,Asian Fusion|Halal|Chinese|Indian|Kebab
+79,b-0Hy2VE9tqTo4QbovMz3xrQ,Masala Kitchen,M4A 1X1,Toronto,ON,Canada,3.5,Caterers|African|Halal|Indian|Event Planning & Services
+80,b-AZKhBlrI5vgTBm3j9WwnbA,Bao-Shin To Go,L5C 2S3,Mississauga,ON,Canada,3.5,Hakka|Pakistani|Halal|Chinese|Indian
+81,b-gsc1j3RZQdScBnULSwaV9A,Saffron Fine Indian Takeout,T2L 1V9,Calgary,AB,Canada,4.5,Indian
+82,b-dg4EMyM1feTEWfLPSbunrg,Taj Indian Cuisine & Banquet Hall,85226,Chandler,AZ,United States,3.0,Venues & Event Spaces|Buffets|Indian|Event Planning & Services
+83,b-W_9ophRRWO924hn1S-y2Hg,Minerva Indian Cuisine,53717,Madison,WI,United States,4.0,Indian
+84,b-rYziPPEILDXJ_F5uKR--YQ,Bollywood Bites,28134,Pineville,NC,United States,3.5,Indian|Vegetarian|Vegan
+85,b-OZwMMnRncrp7_uC-N3vV1Q,Hyderabad House -  Madison,53704,Madison,WI,United States,4.0,Buffets|Indian|Halal
+86,b-YywWkWX235ZurTWSLqNPog,Rajdhani Sweets,L6R 3J5,Brampton,ON,Canada,3.0,Indian|Vegetarian
+87,b-BoiAZQB9AHRvazM055GFOw,Paradise India,89118,Las Vegas,NV,United States,4.5,Indian
+88,b-xYpAg60oZVbOtSYgrOKBgQ,India's Flame,85282,Tempe,AZ,United States,4.5,Nightlife|Buffets|Indian|Bars
+89,b-TAnzFr9NixvCbvUdJMWL5Q,Paradise Biryani Pointe,85308,Glendale,AZ,United States,4.0,Indian
+90,b-7vgWonwfqRt9pxR1c00Ulw,Le Tandoor,J4W 1Z3,Brossard,QC,Canada,3.5,Middle Eastern|Indian|Pakistani
+91,b-j9YFHVQqxM_qKHIc4nck-A,Wong's Asian Cuisine,M1P 2P5,Scarborough,ON,Canada,4.0,Hakka|Asian Fusion|Chinese|Indian
+92,b-S4qUsi44l5D9BbUCkhwQEA,New India Gate,85226,Chandler,AZ,United States,4.5,Nightlife|Vegan|Beer Bar|Halal|Buffets|Indian|Bars
+93,b-yy_FhzQCeLreV21OBccPAg,Shalimar Foods,85224,Chandler,AZ,United States,4.0,Ethnic Food|Food|Indian|Specialty Food
+94,b--p-CuUMzN0HQz9OCQ8SZOA,Usmania Grill,L1V 6M5,Pickering,ON,Canada,3.0,Pakistani|Seafood|Halal|Indian
+95,b-GC9Re0tKAnecMww3DB638g,Jalsa Ice Cream and Bakery,85284,Tempe,AZ,United States,3.5,Desserts|Custom Cakes|Patisserie/Cake Shop|Food|Indian|Ice Cream & Frozen Yogurt|Cupcakes|Coffee & Tea
+96,b-_X0M7EMx475KZSX9wAsmgg,Bikaner Sweets & Restaurant,T3J 0L7,Calgary,AB,Canada,4.0,Indian
+97,b-DeI4KqEeWy0cTdh7Wy5_RA,Samosa Factory,89102,Las Vegas,NV,United States,4.0,Vegan|Pakistani|Caterers|Vegetarian|Indian|Event Planning & Services
+98,b-oX6y1Jm1jYLoWifmIrtaSQ,Chatpatay,28262,Charlotte,NC,United States,4.5,Indian|Himalayan/Nepalese|Pakistani
+99,b-c4qE3ygdEQUD9dZjganavA,Royal Ganesha,T2P 2B8,Calgary,AB,Canada,4.0,Nightlife|Lounges|Food|Indian|Food Delivery Services|Bars

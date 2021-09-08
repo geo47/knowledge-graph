@@ -1,0 +1,48 @@
+@prefix : <http://dig.isi.edu/> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+
+:Silver_spoon_restaurant a :Restaurant ;
+    :name "Silver spoon restaurant" ;
+    :hasMenu :Chicken_Biryani, :Chicken_Qourma, :Yogurt, :Biryani, :Butter_Chicken ;
+    :has :food_quality, :food, :price, :Staff, :Decor, :service .
+
+:Angela a :Woman ;
+    :name "Angela" ;
+    :visit :Silver_spoon_restaurant .
+    
+:Biryani a :Menu ;
+    :name "Biryani" .
+:Chicken_Biryani a :Menu ;
+    :name "Chicken Biryani" .
+:Chicken_Qourma a :Menu ;
+    :name "Chicken Qourma" ;
+    :lacked :taste .
+:Yogurt a :Menu ;
+    :name "Yogurt" ;
+    :is :good .
+:Butter_Chicken a :Menu ;
+    :name "Butter Chicken" ;
+    :is :authentic .
+    
+:price a :Aspect ;
+    :is :reasonable .
+:Staff a :Aspect ;
+    :is :decent .
+:food_quality a :Aspect ;
+    :is :amazing .
+:food a :Aspect ;
+    :is :good .
+:Decor a :Aspect ;
+    :is :decent .
+:service a :Aspect ;
+    :is :good .
+    
+:good a :Attr .
+:taste a :Attr .
+:authentic a :Attr .
+:amazing a :Attr .
+:reasonable a :Attr .
+:decent a :Attr .

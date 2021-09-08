@@ -1,0 +1,68 @@
+MATCH (user:User)-[r_r:RATE]->(rest2:Restaurant), (rest1:Restaurant)-[r_m:HAS_MENU]->(m:Menu)-[:IS]->(a:Attr)
+WHERE user.user_id = "u-bpgbVPJcG-wQ4cNBcPPIxw" and rest2.rest_id <> rest1.rest_id and  m.menu_id = "Goat_Biryani" and a.attr_id = "Spicy"
+WITH rest1, rest2, gds.alpha.similarity.euclideanDistance(rest2.embedding, rest1.embedding) as distance
+RETURN rest2.name, rest1.name, distance
+ORDER BY distance ASC
+LIMIT 10
+
+Get list of all models:
+CALL gds.beta.model.list()
+
+Drop gds graph:
+CALL gds.graph.drop('graphEmbedding')
+
+Drop model:
+CALL gds.beta.model.drop('restMenuModel')
+
+Drop embeddings:
+CALL gds.graph.drop('rest_menu_embeddings')
+
+
+relation_triplets_df = pd.read_csv('./relation_triplets.csv')
+relation_triplets_2_df = pd.read_csv('./input_data.txt-out2.csv')
+
+import re
+relation_triplets_df['relation'] = relation_triplets_df['relation'].apply(lambda x: re.sub(r"\{[^()]*\}", "", x))
+relation_triplets_df = relation_triplets_df.rename(columns={'relation':'predicate'})
+relation_triplets_2_df = relation_triplets_2_df.drop(['Type1', 'Type2'], axis=1)
+relation_triplets_2_df = relation_triplets_2_df.rename(columns={'Entity1':'subject', 'Relationship':'predicate', 'Entity2':'object'})
+
+print(relation_triplets_2_df)
+
+
+frames = [relation_triplets_df, relation_triplets_2_df]
+dataset = pd.concat(frames)
+dataset.drop_duplicates()
+dataset = dataset.sample(frac=1).reset_index(drop=True)
+
+dataset.columns = ['subject', 'predicate', 'object']
+dataset.head(5)
+
+2 u-BSu2hEtBYvtADAEKiQrmiQ
+2 u-n4DeNymCmaulmpoThjjEQg
+2 u-n4DeNymCmaulmpoThjjEQg
+2 u-8j44v53fSpg2VkCC1xWBnA
+2 u-8j44v53fSpg2VkCC1xWBnA
+2 u-8q4qgrHmNn2OHLb8g3nHGQ
+2 u-5FMeJRjsn1zN9Y9q6X1uyw
+2 u-8OZ0XguTupUeWpeAZ7u7MQ
+2 u-8OZ0XguTupUeWpeAZ7u7MQ
+2 u-BSu2hEtBYvtADAEKiQrmiQ
+2 u-5FMeJRjsn1zN9Y9q6X1uyw
+2 u-J5eK0nDfQPlD0VeihS40kA
+2 u-J5eK0nDfQPlD0VeihS40kA
+2 u-VUop7P6gVM95Ke2cHjX0Fg
+2 u-ny-CJ25tLDl8_Oi7j-lbxw
+2 u-cuB0D5lUemrEow1FOLv54Q
+2 u-ny-CJ25tLDl8_Oi7j-lbxw
+2 u-cuB0D5lUemrEow1FOLv54Q
+2 u-ub8FMhBU6hJ0u1jjChlkyg
+2 u-ub8FMhBU6hJ0u1jjChlkyg
+2 u-VUop7P6gVM95Ke2cHjX0Fg
+2 u-8q4qgrHmNn2OHLb8g3nHGQ
+2 u-lale6wOwUvQE15413NKUaw
+2 u-lale6wOwUvQE15413NKUaw
+2 u-WuvSmp8UhNrPUFnB5gm-kg
+2 u-l9zbub5CchE3fCOPMz34Cw
+2 u-l9zbub5CchE3fCOPMz34Cw
+2 u-WuvSmp8UhNrPUFnB5gm-kg

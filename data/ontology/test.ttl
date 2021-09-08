@@ -1,0 +1,120 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix voc: <https://swapi.co/vocabulary/> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+voc:Restaurant a rdfs:Class .
+
+voc:Menu a rdfs:Class .
+
+voc:Review a rdfs:Class .
+
+voc:Attr a rdfs:Class .
+
+<https://swapi.co/resource/restaurant/1> a voc:Restaurant ;
+    rdfs:label "Silver spoon restaurant"^^xsd:string ;
+    voc:name "Silver spoon restaurant"^^xsd:string ;
+    voc:address "1548 Warden Avenue Toronto, ON M1R 2S8 Scarborough"^^xsd:string ;
+    voc:menu <https://swapi.co/resource/menu/1>,
+        <https://swapi.co/resource/menu/2>,
+        <https://swapi.co/resource/menu/3>,
+        <https://swapi.co/resource/menu/4>,
+        <https://swapi.co/resource/menu/5> ;
+    voc:review <https://swapi.co/resource/review/1>,
+        <https://swapi.co/resource/review/2>,
+        <https://swapi.co/resource/review/3> ;
+    voc:attr <https://swapi.co/resource/attr/1>,
+        <https://swapi.co/resource/attr/2>,
+        <https://swapi.co/resource/attr/3> .
+
+<https://swapi.co/resource/restaurant/2> a voc:Restaurant ;
+    rdfs:label "Agra Taj restaurant"^^xsd:string ;
+    voc:name "Agra Taj restaurant"^^xsd:string ;
+    voc:address "Lotte World tower Seoul Korea"^^xsd:string ;
+    voc:menu <https://swapi.co/resource/menu/1>,
+        <https://swapi.co/resource/menu/2>,
+        <https://swapi.co/resource/menu/3> ;
+    voc:review <https://swapi.co/resource/review/1>,
+        <https://swapi.co/resource/review/2>,
+        <https://swapi.co/resource/review/3> ;
+    voc:attr <https://swapi.co/resource/attr/1>,
+        <https://swapi.co/resource/attr/2>,
+        <https://swapi.co/resource/attr/3> .
+
+<https://swapi.co/resource/menu/1> a voc:Menu ;
+    rdfs:label "chicken biryani"^^xsd:string ;
+    voc:price 11000.0 ;
+    voc:attr <https://swapi.co/resource/attr/1>,
+        <https://swapi.co/resource/attr/2>,
+        <https://swapi.co/resource/attr/3> .
+
+<https://swapi.co/resource/menu/2> a voc:Menu ;
+    rdfs:label "chicken qourma"^^xsd:string ;
+    voc:price 11000.0 ;
+    voc:attr <https://swapi.co/resource/attr/1>,
+        <https://swapi.co/resource/attr/2>,
+        <https://swapi.co/resource/attr/3> .
+
+<https://swapi.co/resource/menu/3> a voc:Menu ;
+    rdfs:label "butter chicken"^^xsd:string ;
+    voc:price 11000.0 ;
+    voc:attr <https://swapi.co/resource/attr/1>,
+        <https://swapi.co/resource/attr/2>,
+        <https://swapi.co/resource/attr/3> .
+
+<https://swapi.co/resource/menu/4> a voc:Menu ;
+    rdfs:label "goat briyani"^^xsd:string ;
+    voc:price 11000.0 ;
+    voc:attr <https://swapi.co/resource/attr/1>,
+        <https://swapi.co/resource/attr/2>,
+        <https://swapi.co/resource/attr/3> .
+
+<https://swapi.co/resource/menu/5> a voc:Menu ;
+    rdfs:label "Tandoori Naan"^^xsd:string ;
+    voc:price 11000.0 ;
+    voc:attr <https://swapi.co/resource/attr/1>,
+        <https://swapi.co/resource/attr/2>,
+        <https://swapi.co/resource/attr/3> .
+
+<https://swapi.co/resource/review/1> a voc:Review ;
+    rdfs:label "Review"^^xsd:string ;
+    voc:reviewerId "ssr_1"^^xsd:string ;
+    voc:name: "Angela"^^xsd:string ;
+    voc:rating: 5 ;
+    voc:reviewFor: <https://swapi.co/resource/restaurant/1> .
+
+<https://swapi.co/resource/review/2> a voc:Review ;
+    rdfs:label "Review"^^xsd:string ;
+    voc:reviewerId "ssr_2"^^xsd:string ;
+    voc:name: "Gautram"^^xsd:string ;
+    voc:rating: 4 ;
+    voc:reviewFor: <https://swapi.co/resource/restaurant/1> .
+
+<https://swapi.co/resource/review/3> a voc:Review ;
+    rdfs:label "Review"^^xsd:string ;
+    voc:reviewerId "ssr_3"^^xsd:string ;
+    voc:name: "Maya"^^xsd:string ;
+    voc:rating: 1 ;
+    voc:reviewFor: <https://swapi.co/resource/restaurant/1> .
+
+<https://swapi.co/resource/review/4> a voc:Review ;
+    rdfs:label "Review"^^xsd:string ;
+    voc:reviewerId "ssr_4"^^xsd:string ;
+    voc:name: "Kavi"^^xsd:string ;
+    voc:rating: 4 ;
+    voc:reviewFor: <https://swapi.co/resource/restaurant/1> .
+
+<https://swapi.co/resource/review/5> a voc:Review ;
+    rdfs:label "Review"^^xsd:string ;
+    voc:reviewerId "ssr_5"^^xsd:string ;
+    voc:name: "Khadija"^^xsd:string ;
+    voc:rating: 4 ;
+    voc:reviewFor: <https://swapi.co/resource/restaurant/1> .
+
+<https://swapi.co/resource/review/6> a voc:Review ;
+    rdfs:label "Review"^^xsd:string ;
+    voc:reviewerId "ssr_6"^^xsd:string ;
+    voc:name: "Sunny"^^xsd:string ;
+    voc:rating: 4 ;
+    voc:reviewFor: <https://swapi.co/resource/restaurant/1> .
