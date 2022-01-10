@@ -6,3 +6,4 @@ This repositoy contains the code for the construction of Domain KG from Unstruct
 - Coreference Resolution (neuralcoref, allen nlp)  
 - Knowledge Graph Construction based on Domain Ontology (Neo4j)
 - Contextual Graph embedding generation using Neo4j DataScience library (Node2Vec, GraphSAGE) to train Neural Collaborative Filtering (NCF) model for recommendation.
+- Template-based Query segment generation from User Natural Query. 
